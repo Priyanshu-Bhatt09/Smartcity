@@ -30,7 +30,7 @@ const Home = () => {
         <p>
           Our Smart City integrates cutting-edge technology to improve urban living. 
           From smart transportation and green energy to AI-powered services, we are 
-          building a future-ready city for a better tomorrow.
+          building a future-ready city for a better tomorroww.
         </p>
         
         <h3>Key Features:</h3>
