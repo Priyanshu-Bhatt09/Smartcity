@@ -10,3 +10,5 @@ const Complaint = () => {
     </div>
   );
 };
+
+export default Complaint;

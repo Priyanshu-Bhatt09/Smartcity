@@ -1,0 +1,83 @@
+/* Center the login/register container */
+.Logincontainer {
+    background: #ffffff;
+    width: 350px;
+    padding: 2rem;
+    margin: 100px auto; /* Center the form */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  /* Heading Styling */
+  .Logincontainer h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  /* Form Styling */
+  .Logincontainer form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Label Styling */
+  .Logincontainer label {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #555;
+  }
+  
+  /* Input Fields */
+  .Logincontainer input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  /* Button Styling */
+  .Logincontainer button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  /* Login Button */
+  .Logincontainer button[type="submit"] {
+    background: #007bff;
+    color: white;
+  }
+  
+  .Logincontainer button[type="submit"]:hover {
+    background: #0056b3;
+  }
+  
+  /* Register Button */
+  .Logincontainer button[type="button"] {
+    background: #28a745;
+    color: white;
+  }
+  
+  .Logincontainer button[type="button"]:hover {
+    background: #1e7e34;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 400px) {
+    .Logincontainer {
+      width: 90%;
+      padding: 1.5rem;
+    }
+  }
+  

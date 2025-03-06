@@ -1,7 +1,8 @@
 import React from "react";
+import "./LoginRegister.css";
 const LoginRegister = () => {
   return (
-    <div>
+    <div className="Logincontainer">
       <h2>Login/Register Page</h2>
       <form>
         <label>Email:</label>
